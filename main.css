@@ -1,0 +1,451 @@
+   body{
+   font-family: 'Vollkorn', serif;
+   }
+*{
+  margin: 0;
+  padding: 0;
+ box-sizing: border-box;
+}
+
+.home{
+    background-image: url(images/drew-coffman-1872.jpg);
+    height: 800px;
+    background-size: 100% 100%;  
+   
+}
+.navbar{
+     background-color: rgba(0, 0, 0, 0.6);
+       margin: 0 50px;
+
+}
+
+ .navbar.logo {
+     width: 500px;
+     background-color: blueviolet;
+     float: left;
+} 
+
+.list{
+    background-color: burlywood;
+    float: right;
+}
+.brdr{
+    clear: both;
+ }
+ 
+ .list{
+
+ }
+
+
+
+
+.navbar .list ul{
+        /* list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    color: white;
+        height: 100%;
+            line-height: 80px;
+}
+
+
+
+
+.list ul li +  li {
+ margin-left: 20px;
+}
+.list ul li:first-child{
+   border-top: 3px solid#bacf0f   
+}
+  
+ */
+
+.caption{
+    color: white;
+    text-align: center;
+    margin-top: 200px;      
+}
+.caption h5{
+    font-size: 20px;
+}
+.caption h1{
+    font-size: 80px;
+    font-weight: lighter;
+    margin: 17px 0 20px 0;
+}
+.caption p{
+    font-size: 25px;
+    font-weight:lighter;
+}
+.caption .prag2{
+    margin-bottom: 20px;
+
+}
+
+.btn1,.btn2{
+
+    background-color: transparent;
+    border-radius: 5px ;
+    padding:20px 15px;
+    border: 1px solid white;    
+}
+.btn1{
+
+    background-color: #c1ab84;
+}
+/* .information {
+      margin-bottom:100px ;
+} */
+.bread-img{
+    width: 40%;
+    float: left;
+}
+.bread-img img{
+    width: 100%;
+    margin: 150px 20px ;
+}
+.info{
+    width: 53%;
+    float: left;
+    margin:220px 0 25px 80px;
+}
+.info .ptwo{
+    margin-bottom: 25px;
+}
+/* .imagefirst,.imagetwo,.imagethree,.imagefour{
+    height: 63px;
+    width: 69px;
+} */
+
+.imagefirst{
+    
+    float: left;  
+}
+
+.one {
+    float: left;
+    margin-top: 20px;
+       
+}
+   
+
+.imagetwo{
+    width: 63px;
+    height: 69;
+    margin-top: 2; 
+    float: left;
+   
+    
+}
+
+.two {
+    float: left;
+    margin-top: 20px;
+       
+}
+
+.imagethree{
+    height: 63px;
+    width: 69;
+    margin: 1px 2px ;
+    float: left;
+   
+    
+}
+
+.three {
+    float: left;
+    margin-top: 20px;
+    
+}
+
+.imagefour{
+    
+    float: left;
+    height: 63px;
+    width: 69px
+    
+}
+
+.four {
+    float: left;
+    margin-top: 20px;
+       
+}
+.brdr{
+    clear: both;
+}
+
+
+ .Location{
+     margin: 25px ;
+     background-color: aqua;
+    
+}
+ .detials{  
+    width: 40%;
+    padding: 15px;
+    
+      
+ } 
+
+.place{
+    width:40%;
+    float: right;
+    margin-right: 50px;
+}
+.place img{
+    width: 100%;
+    margin-top: 50px;
+
+}
+.detials h4 {
+    padding-bottom: 15px;
+
+}
+/* .Baking h5 ,.Baking p{
+    text-align: center;
+}
+
+.bake{
+    padding:50px 0
+}
+.bake{
+    width: 25%;
+    text-align: center;
+    float: left;
+}
+  */
+
+/* 
+
+
+
+  .navbar{
+     background-color: rgba(0, 0, 0, 0.6);
+    justify-content: space-between;
+    align-items: center;
+   display: flex;
+       margin: 0 50px;
+
+}
+
+ .logo img{
+     width: 200px;
+     background-color: blueviolet;
+} 
+
+.list{
+    background-color: burlywood;
+}
+
+
+
+
+
+.navbar .list ul{
+        list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    color: white;
+        height: 100%;
+            line-height: 80px;
+}
+
+
+
+
+.list ul li +  li {
+ margin-left: 20px;
+}
+.list ul li:first-child{
+   border-top: 3px solid#bacf0f   
+}
+  
+
+
+.caption{
+    color: white;
+    text-align: center;
+    margin-top: 200px;      
+}
+.caption h5{
+    font-size: 20px;
+}
+.caption h1{
+    font-size: 80px;
+    font-weight: lighter;
+    margin: 17px 0 20px 0;
+}
+.caption p{
+    font-size: 25px;
+    font-weight:lighter;
+}
+.caption .prag2{
+    margin-bottom: 20px;
+
+}
+
+.btn1,.btn2{
+
+    background-color: transparent;
+    border-radius: 5px ;
+    padding:20px 15px;
+    border: 1px solid white;    
+}
+.btn1{
+
+    background-color: #c1ab84;
+}
+/* .information {
+      margin-bottom:100px ;
+} */
+.bread-img{
+    width: 40%;
+    float: left;
+}
+.bread-img img{
+    width: 100%;
+    margin: 150px 20px ;
+}
+.info{
+    width: 53%;
+    float: left;
+    margin:220px 0 25px 80px;
+}
+.info .ptwo{
+    margin-bottom: 25px;
+}
+/* .imagefirst,.imagetwo,.imagethree,.imagefour{
+    height: 63px;
+    width: 69px;
+} */
+.brdr{
+    clear: both;
+ }
+.imagefirst{
+    
+    float: left;  
+}
+
+.one {
+    float: left;
+    margin-top: 20px;
+       
+}
+   
+
+.imagetwo{
+    width: 63px;
+    height: 69;
+    margin-top: 2; 
+    float: left;
+   
+    
+}
+
+.two {
+    float: left;
+    margin-top: 20px;
+       
+}
+
+.imagethree{
+    height: 63px;
+    width: 69;
+    margin: 1px 2px ;
+    float: left;
+   
+    
+}
+
+.three {
+    float: left;
+    margin-top: 20px;
+    
+}
+
+.imagefour{
+    
+    float: left;
+    height: 63px;
+    width: 69px
+    
+}
+
+.four {
+    float: left;
+    margin-top: 20px;
+       
+}
+.brdr{
+    clear: both;
+}
+
+
+ .Location{
+     margin: 25px ;
+     background-color: aqua;
+    
+}
+ .detials{  
+    width: 40%;
+    padding: 15px;
+    
+      
+ } 
+
+.place{
+    width:40%;
+    float: right;
+    margin-right: 50px;
+}
+.place img{
+    width: 100%;
+    margin-top: 50px;
+
+}
+.detials h4 {
+    padding-bottom: 15px;
+
+} */
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
